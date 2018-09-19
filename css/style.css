@@ -1,0 +1,296 @@
+/* ========================
+   -CSS Code Structure
+    1. Global CSS
+    2. Typography
+    3. Header Section
+    4. About Me Section
+    5. Expert In Section
+    6. Latest Work Section
+    7. Contact Section
+    8. Connect Section
+    9. Footer Section
+========================== */
+
+
+
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+
+/*1.0 Global Css Start*/
+
+body{
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: 400;
+}
+
+/*1.0 Global Css End*/
+
+/*3.0 Header Section Start*/
+
+.navbar{
+    margin: 0 auto;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #083061;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.navbar-light .navbar-nav .nav-link:focus{
+    color: #083061;
+}
+
+.navbar-light .navbar-nav .nav-link:active{
+    color: #083061;
+}
+
+.navbar-light{
+    background: transparent !important;
+    transition: 500ms ease;
+}
+
+.navbar-light.scrolled{
+    background: #3676fd !important;
+    color: #333 !important;
+}
+
+.cover{
+    background: url(../img/background.png) no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+    min-height: 40rem;
+    height: auto;
+    border-radius: 0;
+    width: 100%;
+    color: #fff;
+    padding-top: 1rem;
+}
+
+.cover .row{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.cover h2{
+    text-align: center;
+    margin: 18rem auto 2rem;
+    text-transform: uppercase;
+}
+
+.cover img{
+    display: block;
+    margin: 0 auto;
+}
+
+.cover p{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.cover .btn{
+    display: block;
+    margin: 20px auto;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.cover .btn:hover{
+    background-color: #fff;
+    color: #368afe;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.cover .btn:focus{
+	background-color: #fff;
+    color: #368afe;
+    border: 1px solid #fff;
+}
+/*3.0 Header Section End*/
+
+/*4.0 About Me Section Start*/
+
+.about-me{
+    padding: 40px 0px;
+}
+
+.about-me h3{
+	margin: 20px auto;
+	text-align: center;
+	color: #4386fe;
+}
+
+.about-me p{
+	text-align: center;
+	margin: 20px auto;
+}
+/*4.0 About Me Section End*/
+
+
+/*5.0 Expert In Section Start*/
+
+.expert-in{
+	padding: 40px 0px;
+	background-color: #f1f8ff;
+}
+
+.expert-in h3{
+	text-align: center;
+	margin: 20px auto;
+	color: #4386fe;
+}
+
+.expert-in img{
+	display: block;
+	margin: 20px auto;
+	width: 30%;
+}
+
+.expert-in h5{
+	text-align: center;
+	color: #4386fe;
+}
+
+.expert-in p{
+	font-size: 15px;
+	text-align: center;
+	margin: 20px;
+}
+/*5.0 Expert In Section End*/
+
+
+/*6.0 Latest Work Section Start*/
+
+.work{
+	padding: 40px 0px;
+}
+
+.work h3{
+	text-align: center;
+	margin: 20px auto;
+	color: #4386fe;
+}
+
+.work img{
+	display: block;
+	margin: 20px auto;
+	border: 1px solid #469dff;
+	width: 90%;
+}
+
+.project-item-hover{
+    position: absolute;
+    width: 84%;
+    height: 88%;
+    background-color: rgba(53,103,252,0.5);
+    top: 6%;
+    left: 8%;
+    z-index: -1;
+    transform: scale(0);
+}
+
+.project-item:hover .project-item-hover{
+    z-index: 1;
+    transition: ease 0.5s all;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+
+.project-item-hover a{
+	background-color: transparent;
+	color: #fff;
+	padding: 10px 15px;
+	font-weight: 700;
+	margin: 108px auto;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	position: relative;
+	left: 32%;
+}
+
+.project-item-hover a:hover{
+	text-decoration: none;
+	color: #083061;
+	transition: 0.3s all ease;
+	-webkit-transition: 0.3s all ease;
+	-moz-transition: 0.3s all ease;
+	-o-transition: 0.3s all ease;
+}
+/*6.0 Latest Work Section End*/
+
+
+/*7.0 Contact Section Start*/
+
+.contact{
+	background:url(../img/Contact.png) no-repeat;
+	background-size: cover;
+	padding: 20px 0px;
+}
+
+.contact h3{
+	margin: 0 auto;
+	text-align: right;
+	color: #fff;
+	padding: 10px;
+}
+
+.contact span{
+	font-weight: 700;
+}
+
+.contact .btn{
+	display: block;
+    margin: 9px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 5px 35px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.contact .btn:hover{
+	background-color: #fff;
+    color: #368afe;
+    border: 1px solid #fff
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.contact .btn:focus{
+	background-color: #fff;
+    color: #368afe;
+    border: 1px solid #fff
+}
+/*7.0 Contact Section End*/
