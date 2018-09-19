@@ -243,6 +243,46 @@ h1,h2,h3,h4,h5,h6{
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
 }
+
+.modal-header{
+	background-color: #f1f8ff;
+}
+
+.modal-header .close{
+	margin: -1rem 0rem -1rem auto;
+}
+
+.modal-title{
+	color: #4386fe;
+}
+
+.modal-body{
+	background-color: #f1f8ff;
+}
+
+.modal-footer{
+	background-color: #f1f8ff;
+}
+
+.modal-footer a{
+	background-color: #368afe;
+	color: #fff;
+	padding: 5px 20px;
+	border-radius: 25px;
+	text-decoration: none;
+	border: 1px solid #368afe;
+	text-transform: uppercase;
+}
+
+.modal-footer a:hover{
+	background-color: #f1f8ff;
+	color: #368afe;
+	border: 1px solid #368afe;
+	transition: 0.3s all ease-in;
+	-webkit-transition: 0.3s all ease-in;
+	-moz-transition: 0.3s all ease-in;
+	-o-transition: 0.3s all ease-in;
+}
 /*6.0 Latest Work Section End*/
 
 
