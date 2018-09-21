@@ -207,7 +207,7 @@ h1,h2,h3,h4,h5,h6{
 .work img{
 	display: block;
 	margin: 20px auto;
-	border: 2px solid #dea128;
+	border: 1px solid #dea128;
 	width: 90%;
 }
 
