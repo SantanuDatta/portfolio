@@ -121,13 +121,13 @@ h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
     background-color: transparent;
     color: #333;
-    border: 1px solid #333;
+    border: 2px solid #333;
 }
 
 .cover .btn:hover{
     background-color: #333;
     color: #dea128;
-    border: 1px solid #dea128;
+    border: 2px solid #dea128;
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
@@ -137,7 +137,7 @@ h1,h2,h3,h4,h5,h6{
 .cover .btn:focus{
 	background-color: #333;
     color: #dea128;
-    border: 1px solid #dea128;
+    border: 2px solid #dea128;
 }
 /*3.0 Header Section End*/
 
@@ -281,14 +281,14 @@ h1,h2,h3,h4,h5,h6{
 	border-radius: 25px;
 	text-decoration: none;
 	font-weight: 700;
-	border: 1px solid #333;
+	border: 2px solid #333;
 	text-transform: uppercase;
 }
 
 .modal-footer a:hover{
 	background-color: #fff7e6;
 	color: #dea128;
-	border: 1px solid #dea128;
+	border: 2px solid #dea128;
 	transition: 0.3s all ease-in;
 	-webkit-transition: 0.3s all ease-in;
 	-moz-transition: 0.3s all ease-in;
@@ -335,13 +335,13 @@ h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
     background-color: transparent;
     color: #dea128;
-    border: 1px solid #dea128;
+    border: 2px solid #dea128;
 }
 
 .contact .btn:hover{
 	background-color: #dea128;
     color: #333;
-    border: 1px solid #333;
+    border: 2px solid #333;
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
@@ -351,6 +351,6 @@ h1,h2,h3,h4,h5,h6{
 .contact .btn:focus{
 	background-color: #dea128;
     color: #333;
-    border: 1px solid #333;
+    border: 2px solid #333;
 }
 /*7.0 Contact Section End*/
