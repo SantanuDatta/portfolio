@@ -137,7 +137,7 @@ h1,h2,h3,h4,h5,h6{
 .cover .btn:focus{
 	background-color: #333;
     color: #dea128;
-    border: 1px solid #fff;
+    border: 1px solid #333;
 }
 /*3.0 Header Section End*/
 
