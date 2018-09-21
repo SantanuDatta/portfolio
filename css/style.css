@@ -37,13 +37,14 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .navbar-light .navbar-nav .nav-link{
-    color: #fff;
+    color: #333;
     padding-right: 15px;
     padding-left: 15px;
+	font-weight: 700;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
-    color: #083061;
+    color: #fff;
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
@@ -51,25 +52,30 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .navbar-light .navbar-nav .nav-link:focus{
-    color: #083061;
+	color: #fff !important;
 }
 
-.navbar-light .navbar-nav .nav-link:active{
-    color: #083061;
+.navbar-light .navbar-nav .nav-link.active{
+	color: #fff !important;
 }
 
 .navbar-light{
     background: transparent !important;
-    transition: 500ms ease;
+    transition: 500ms ease-in-out;
 }
 
 .navbar-light.scrolled{
-    background: #3676fd !important;
-    color: #333 !important;
+    background: #333 !important;
+	transition: 500ms ease-in-out;
 }
 
+.abc.scrolled{
+	color: #dea128 !important;
+}
+
+
 .cover{
-    background: url(../img/background.png) no-repeat;
+    background: url(../img/background.jpeg) no-repeat;
     background-size: cover;
     padding: 50px 0px;
     min-height: 40rem;
@@ -91,6 +97,7 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
     margin: 18rem auto 2rem;
     text-transform: uppercase;
+	color: #333;
 }
 
 .cover img{
@@ -101,6 +108,7 @@ h1,h2,h3,h4,h5,h6{
 .cover p{
     text-align: center;
     margin: 20px auto;
+	color: #333;
 }
 
 .cover .btn{
@@ -112,14 +120,14 @@ h1,h2,h3,h4,h5,h6{
     padding: 10px 30px;
     text-transform: uppercase;
     background-color: transparent;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #333;
+    border: 1px solid #333;
 }
 
 .cover .btn:hover{
-    background-color: #fff;
-    color: #368afe;
-    border: 1px solid #fff;
+    background-color: #333;
+    color: #dea128;
+    border: 1px solid #dea128;
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
@@ -142,7 +150,7 @@ h1,h2,h3,h4,h5,h6{
 .about-me h3{
 	margin: 20px auto;
 	text-align: center;
-	color: #4386fe;
+	color: #dea128;
 }
 
 .about-me p{
@@ -156,13 +164,13 @@ h1,h2,h3,h4,h5,h6{
 
 .expert-in{
 	padding: 40px 0px;
-	background-color: #f1f8ff;
+	background-color: #fff7e6;
 }
 
 .expert-in h3{
 	text-align: center;
 	margin: 20px auto;
-	color: #4386fe;
+	color: #dea128;
 }
 
 .expert-in img{
@@ -173,7 +181,7 @@ h1,h2,h3,h4,h5,h6{
 
 .expert-in h5{
 	text-align: center;
-	color: #4386fe;
+	color: #dea128;
 }
 
 .expert-in p{
@@ -193,7 +201,7 @@ h1,h2,h3,h4,h5,h6{
 .work h3{
 	text-align: center;
 	margin: 20px auto;
-	color: #4386fe;
+	color: #dea128;
 }
 
 .work img{
@@ -207,7 +215,7 @@ h1,h2,h3,h4,h5,h6{
     position: absolute;
     width: 84%;
     height: 88%;
-    background-color: rgba(53,103,252,0.5);
+    background-color: rgba(239, 186, 81,0.7);
     top: 6%;
     left: 8%;
     z-index: -1;
@@ -237,7 +245,7 @@ h1,h2,h3,h4,h5,h6{
 
 .project-item-hover a:hover{
 	text-decoration: none;
-	color: #083061;
+	color: #333;
 	transition: 0.3s all ease;
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
@@ -245,7 +253,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .modal-header{
-	background-color: #f1f8ff;
+	background-color: #fff7e6;
 }
 
 .modal-header .close{
@@ -253,35 +261,46 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .modal-title{
-	color: #4386fe;
+	color: #dea128;
 }
 
 .modal-body{
-	background-color: #f1f8ff;
+	background-color: #fff7e6;
 }
 
 .modal-footer{
-	background-color: #f1f8ff;
+	background-color: #fff7e6;
 }
 
 .modal-footer a{
-	background-color: #368afe;
-	color: #fff;
+	background-color: #333;
+	color: #dea128;
 	padding: 5px 20px;
 	border-radius: 25px;
 	text-decoration: none;
-	border: 1px solid #368afe;
+	font-weight: 700;
+	border: 1px solid #333;
 	text-transform: uppercase;
 }
 
 .modal-footer a:hover{
-	background-color: #f1f8ff;
-	color: #368afe;
-	border: 1px solid #368afe;
+	background-color: #fff7e6;
+	color: #dea128;
+	border: 1px solid #dea128;
 	transition: 0.3s all ease-in;
 	-webkit-transition: 0.3s all ease-in;
 	-moz-transition: 0.3s all ease-in;
 	-o-transition: 0.3s all ease-in;
+}
+
+.fa-chevron-left{
+	color: #dea128;
+	font-size: 25px;
+}
+
+.fa-chevron-right{
+	color: #dea128;
+	font-size: 25px;
 }
 /*6.0 Latest Work Section End*/
 
@@ -289,15 +308,14 @@ h1,h2,h3,h4,h5,h6{
 /*7.0 Contact Section Start*/
 
 .contact{
-	background:url(../img/Contact.png) no-repeat;
-	background-size: cover;
+	background-color: #333;
 	padding: 20px 0px;
 }
 
 .contact h3{
 	margin: 0 auto;
 	text-align: right;
-	color: #fff;
+	color: #dea128;
 	padding: 10px;
 }
 
@@ -314,14 +332,14 @@ h1,h2,h3,h4,h5,h6{
     padding: 5px 35px;
     text-transform: uppercase;
     background-color: transparent;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #dea128;
+    border: 1px solid #dea128;
 }
 
 .contact .btn:hover{
-	background-color: #fff;
-    color: #368afe;
-    border: 1px solid #fff
+	background-color: #dea128;
+    color: #333;
+    border: 1px solid #333;
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
@@ -330,7 +348,7 @@ h1,h2,h3,h4,h5,h6{
 
 .contact .btn:focus{
 	background-color: #fff;
-    color: #368afe;
+    color: #dea128;
     border: 1px solid #fff
 }
 /*7.0 Contact Section End*/
