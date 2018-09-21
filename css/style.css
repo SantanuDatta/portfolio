@@ -135,8 +135,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .cover .btn:focus{
-	background-color: #fff;
-    color: #368afe;
+	background-color: #333;
+    color: #dea128;
     border: 1px solid #fff;
 }
 /*3.0 Header Section End*/
@@ -349,8 +349,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .contact .btn:focus{
-	background-color: #fff;
-    color: #dea128;
-    border: 1px solid #fff
+	background-color: #dea128;
+    color: #333;
+    border: 1px solid #333;
 }
 /*7.0 Contact Section End*/
