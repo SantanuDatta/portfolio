@@ -213,11 +213,11 @@ h1,h2,h3,h4,h5,h6{
 
 .project-item-hover{
     position: absolute;
-    width: 84%;
-    height: 88%;
-    background-color: rgba(239, 186, 81,0.7);
-    top: 6%;
-    left: 8%;
+	width: 83%;
+	height: 86.8%;
+    background-color: rgba(239, 186, 81, 0.7);
+	top: 6.5%;
+	left: 8.5%;
     z-index: -1;
     transform: scale(0);
 }
@@ -254,6 +254,7 @@ h1,h2,h3,h4,h5,h6{
 
 .modal-header{
 	background-color: #fff7e6;
+	border-bottom: 1px solid #dea128;
 }
 
 .modal-header .close{
@@ -266,12 +267,14 @@ h1,h2,h3,h4,h5,h6{
 
 .modal-body{
 	background-color: #fff7e6;
+	padding: 0px;
 }
 
 .modal-footer{
 	background-color: #fff7e6;
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
+	border-top: 1px solid #dea128;
 }
 
 .modal-footer a{
