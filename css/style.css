@@ -64,6 +64,12 @@ h1,h2,h3,h4,h5,h6{
     transition: 500ms ease-in-out;
 }
 
+.navbar-light .navbar-toggler {
+    color: #333;
+    border: 0px;
+    font-size: 25px;
+}
+
 .navbar-light.scrolled{
     background: #333 !important;
 	transition: 500ms ease-in-out;
@@ -357,3 +363,93 @@ h1,h2,h3,h4,h5,h6{
     border: 2px solid #333;
 }
 /*7.0 Contact Section End*/
+
+
+
+/*Media Query for mobile device from 0px to 550px*/
+@media screen and (max-width:550px){
+	.navbar-light{
+		text-align: right;
+		display: block;
+	}
+	
+	.navbar-light .navbar-nav .nav-link{
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+	}
+	
+	.project-item-hover a{
+		bottom: 4%;
+	}
+	
+	.cover h2{
+		margin: 15rem auto 2rem;
+	}
+	
+	.cover p{
+		font-size: 15px;
+	}
+	
+	.cover .btn{
+		padding: 5px 30px;
+	}
+	
+	.about-me p{
+		font-size: 15px;
+	}
+	
+	.contact h3{
+		font-size: 20px;
+	}
+	
+	.contact .btn{
+		margin: 5px auto;
+	}
+}
+
+/*Media Query for tablet device from 550px to 990px*/
+@media (min-width: 550px) and (max-width: 990px){
+	.navbar-light{
+		text-align: right;
+		display: block;
+	}
+	
+	.navbar-light .navbar-nav .nav-link{
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+	}
+	
+	.project-item-hover a{
+		bottom: 4%;
+	}
+	
+	.cover h2{
+		margin: 15rem auto 2rem;
+	}
+	
+	.cover p{
+		font-size: 15px;
+	}
+	
+	.about-me p{
+		font-size: 15px;
+	}
+	
+	.work .col-lg-4{
+		width: 50%;
+	}
+	
+	.project-item-hover a {
+    	bottom: 2%;
+	}
+	
+	.contact .col-lg-8{
+		width: 70%;
+	}
+	
+	.contact .col-lg-4{
+		width: 30%;
+	}
+}
