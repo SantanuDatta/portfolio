@@ -379,9 +379,6 @@ h1,h2,h3,h4,h5,h6{
 		text-align: center;
 	}
 	
-	.project-item-hover a{
-		bottom: 2%;
-	}
 	
 	.cover h2{
 		margin: 15rem auto 2rem;
@@ -422,7 +419,7 @@ h1,h2,h3,h4,h5,h6{
 	}
 	
 	.project-item-hover a{
-		bottom: 4%;
+		bottom: 2%;
 	}
 	
 	.cover h2{
