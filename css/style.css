@@ -255,6 +255,8 @@ h1,h2,h3,h4,h5,h6{
 .modal-header{
 	background-color: #fff7e6;
 	border-bottom: 1px solid #dea128;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
 }
 
 .modal-header .close{
@@ -272,8 +274,6 @@ h1,h2,h3,h4,h5,h6{
 
 .modal-footer{
 	background-color: #fff7e6;
-	border-bottom-left-radius: 25px;
-	border-bottom-right-radius: 25px;
 	border-top: 1px solid #dea128;
 }
 
