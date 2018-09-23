@@ -173,6 +173,11 @@ h1,h2,h3,h4,h5,h6{
 	background-color: #fff7e6;
 }
 
+.carousel-inner .col-lg-4{
+	width: 25%;
+	display: inline-block;
+}
+
 .expert-in h3{
 	text-align: center;
 	margin: 20px auto;
@@ -180,20 +185,44 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .expert-in img{
-	display: block;
-	margin: 20px auto;
-	width: 30%;
+	margin: 20px 50px;
+	width: 40%;
+}
+
+.carousel-inner{
+	display: inline-flex;
+}
+
+.carousel-item{
+	text-align: center;
+	margin: 10px auto;
+}
+
+
+.carousel-indicators li{
+	background-color: #333;
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.carousel-indicators .active{
+	background-color: #dea128;
 }
 
 .expert-in h5{
 	text-align: center;
 	color: #dea128;
+	margin: 10px auto;
+	display: block;
+	text-transform: uppercase;
 }
 
 .expert-in p{
 	font-size: 15px;
 	text-align: center;
-	margin: 20px;
+	margin: 20px auto 40px;
 }
 /*5.0 Expert In Section End*/
 
@@ -392,7 +421,24 @@ h1,h2,h3,h4,h5,h6{
 	}
 	
 	.about-me p{
-		font-size: 15px;
+		font-size: 13px;
+	}
+	
+	.expert-in img{
+		width: 60%;
+		margin: 20px auto;
+	}
+	
+	.expert-in h5{
+		font-size: 18px;
+	}
+	
+	.expert-in p {
+    	font-size: 12px;
+	}
+	
+	.carousel-inner .col-lg-4 {
+		width: 50%;
 	}
 	
 	.project-item-hover a{
@@ -436,7 +482,20 @@ h1,h2,h3,h4,h5,h6{
 	}
 	
 	.about-me p{
-		font-size: 15px;
+		font-size: 12px;
+	}
+	
+	.expert-in img {
+		margin: 20px auto;
+		width: 50%;
+	}
+	
+	.expert-in h5{
+		font-size: 14px;
+	}
+	
+	.expert-in p {
+    font-size: 12px;
 	}
 	
 	.work .col-lg-4{
@@ -444,7 +503,7 @@ h1,h2,h3,h4,h5,h6{
 	}
 	
 	.project-item-hover a {
-    	bottom: 2%;
+		top: -2%;
 	}
 	
 	.contact .col-lg-8{
